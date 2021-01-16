@@ -8,6 +8,7 @@
         "ext-gd": "*",
         "topthink/framework": "^6.0.0"
     },
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "CodeItNow\\": "CodeItNow/"
