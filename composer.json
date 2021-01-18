@@ -1,0 +1,24 @@
+{
+    "name": "cma/cma-barcode",
+    "description": "cma-barcode",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.1.0",
+        "ext-gd": "*",
+        "topthink/framework": "^6.0.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "CodeItNow\\": "CodeItNow/"
+        }
+    },
+    "extra": {
+        "think": {
+            "services": [
+                "CodeItNow\\BarCodeService"
+            ]
+        }
+    }
+}
